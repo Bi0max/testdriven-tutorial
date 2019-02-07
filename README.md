@@ -9,3 +9,7 @@
 2. [SSH into docker machine as root](https://stackoverflow.com/questions/32646952/docker-machine-boot2docker-root-password)
 3. [Other possibly useful Docker commands](https://github.com/thinkingserious/flask-microservices-users)
 4. Use git-bash with "winpty" to run interactive docker session: `winpty docker exec -it`
+
+# PyCharm
+1. [Add additional paths to interpreter, so that it sees the "project" folder of
+different services.](https://stackoverflow.com/questions/17198319/how-to-configure-custom-pythonpath-with-vm-and-pycharm)
