@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.com/Bi0max/testdriven-tutorial.svg?branch=master)](https://travis-ci.com/Bi0max/testdriven-tutorial)
 
+# ToDo:
+1. Fix TravisCI pipeline, which isn't working as expected because:
+    1. Docker-compose exec always return exit code 0, not an error code of the command
+    2. Sometimes tests start before PostgreSQL server is started
+
 # Docker Toolbox for Windows configuration
 1. [Confiure VirtualBox to have access to the volume folder](https://medium.com/@Charles_Stover/fixing-volumes-in-docker-toolbox-4ad5ace0e572)
     1. Set env variable `TESTDRIVEN_ROOT_FOLDER` (only for Windows), it will be used in docker-compose-dev.yml.
