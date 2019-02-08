@@ -1,6 +1,6 @@
 # Tutorial on Microservices with Docker, Flask, and React
 
-[![Build Status](https://travis-ci.org/Bi0max/testdriven-tutorial.svg?branch=master)](https://travis-ci.org/Bi0max/testdriven-tutorial)
+[![Build Status](https://travis-ci.com/Bi0max/testdriven-tutorial.svg?branch=master)](https://travis-ci.com/Bi0max/testdriven-tutorial)
 
 # Docker Toolbox for Windows configuration
 1. [Confiure VirtualBox to have access to the volume folder](https://medium.com/@Charles_Stover/fixing-volumes-in-docker-toolbox-4ad5ace0e572)
