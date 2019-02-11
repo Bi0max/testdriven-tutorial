@@ -20,3 +20,13 @@
 # PyCharm
 1. [Add additional paths to interpreter, so that it sees the "project" folder of
 different services.](https://stackoverflow.com/questions/17198319/how-to-configure-custom-pythonpath-with-vm-and-pycharm)
+
+# Comments to certain parts
+### Part 2, Chapter 8
+1. Exclude second volume ('/usr/src/app/node_modules') from `docker-compose-dev.yml` to make things work.  
+It is a workaround. Normally it should work.
+But `npm install` is not installing `fork-ts-checker-webpack-plugin` in the Docker container.
+
+# Other
+1. [`docker exec` in git-bash on Windows](https://stackoverflow.com/questions/48001082/oci-runtime-exec-failed-exec-failed-executable-file-not-found-in-path)
+2. Use `CMD tail -f /dev/null` in the Dockerfile to be able to run the container indefinitely.
